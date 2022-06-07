@@ -1,0 +1,14 @@
+
+void print_list(Node *head)
+{
+	Node *current_node = head; 
+	while (current_node != NULL) {
+		if (current_node->parent == true) { 
+			printf("(%d) %s, %lu kb\n", current->pid, current->name, current->vsize);
+		} else {
+			printf("\t"(%d) %s, %lu kb\n", current->pid, current->name, current->vsize);
+		}
+		current_node = current_node->next;
+		
+	}
+}
